@@ -2,17 +2,17 @@ nama = input("Masukkan nama anda: ")
 nilai = int(input("Masukkan nilai anda: "))
 if nilai >= 85:
     print("Halo", nama, "Nilai anda setelah dikonversi adalah A")
-elif nilai >= 84:
+elif nilai >= 80:
     print("Halo", nama,"Nilai anda setelah dikonversi adalah A-")
-elif nilai >= 79:
+elif nilai >= 75:
     print("Halo", nama, "Nilai anda setelah dikonversi adalah B+")
-elif nilai >= 74:
+elif nilai >= 70:
     print("Halo", nama, "Nilai anda setelah dikonversi adalah B")
-elif nilai >= 69:
+elif nilai >= 65:
     print("Halo", nama, "Nilai anda setelah dikonversi adalah C+")
-elif nilai >= 64:
+elif nilai >= 60:
     print("Halo", nama, "Nilai anda setelah dikonversi adalah C")
-elif nilai <= 60:
+elif nilai < 60:
     print("Halo", nama, "Nilai anda setelah dikonversi adalah E")
 else:
     print("Salah input")
