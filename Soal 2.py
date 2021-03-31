@@ -12,5 +12,7 @@ elif nilai >= 69:
     print("Halo", nama, "Nilai anda setelah dikonversi adalah C+")
 elif nilai >= 64:
     print("Halo", nama, "Nilai anda setelah dikonversi adalah C")
-else:
+elif nilai <= 60:
     print("Halo", nama, "Nilai anda setelah dikonversi adalah E")
+else:
+    print("Salah input")
